@@ -3,7 +3,7 @@ name: dropcap
 description: "Editorial paragraph with a single, oversized serif drop-cap that overhangs the leading margin — drop straight into a magazine layout."
 metadata:
   author: "@ybouane"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 ## How To Use This Skill
