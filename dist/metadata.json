@@ -1,0 +1,149 @@
+{
+  "name": "Drop Cap",
+  "slug": "dropcap",
+  "version": 1,
+  "description": "Editorial paragraph with a single, oversized serif drop-cap that overhangs the leading margin \u2014 drop straight into a magazine layout.",
+  "dependencies": [],
+  "authorName": "@ybouane",
+  "authorUrl": "https://x.com/ybouane",
+  "tags": [
+    "dropcap",
+    "editorial",
+    "typography"
+  ],
+  "category": "Typography",
+  "featured": false,
+  "dateCreated": 1781222400000,
+  "poster": "/images/heroes/dropcap.png",
+  "install": {
+    "package": "@crazygl/hero-dropcap"
+  },
+  "config": {
+    "managedWidth": true,
+    "innerWidth": 1200,
+    "managedHeight": true,
+    "defaultHeight": 720,
+    "styleInheritance": "none",
+    "usesCanvas": false,
+    "usesWebGL": false,
+    "usesThree": false,
+    "pointerTracking": false,
+    "resizeTracking": true,
+    "scrollTracking": false,
+    "supportsImages": false,
+    "supportsTransparency": true,
+    "interactive": false,
+    "supportsFontCustomization": true,
+    "interactivityModes": [
+      "none"
+    ],
+    "interactivity": "none"
+  },
+  "customizer": {
+    "sections": [
+      {
+        "label": "Content",
+        "fields": [
+          {
+            "id": "body",
+            "label": "Body",
+            "type": "textarea",
+            "default": "It begins with a single letter \u2014 a quiet kind of restraint, a frame for the line that follows. The drop-cap is the editorial flourish that says: read carefully, this is not a marketing landing page. It is a piece of writing, and you should treat it that way."
+          }
+        ]
+      },
+      {
+        "label": "Drop-cap",
+        "fields": [
+          {
+            "id": "dropCapColor",
+            "label": "Drop-cap colour",
+            "type": "color",
+            "default": "#ffd86b"
+          },
+          {
+            "id": "dropCapSize",
+            "label": "Drop-cap scale (em)",
+            "type": "slider",
+            "default": 5,
+            "min": 2,
+            "max": 8,
+            "step": 0.1,
+            "unit": "em"
+          },
+          {
+            "id": "dropCapLines",
+            "label": "Lines spanned",
+            "type": "slider",
+            "default": 3,
+            "min": 2,
+            "max": 5,
+            "step": 1
+          }
+        ]
+      },
+      {
+        "label": "Typography",
+        "fields": [
+          {
+            "id": "textColor",
+            "label": "Body colour",
+            "type": "color",
+            "default": "#e8e9ec"
+          },
+          {
+            "id": "fontSize",
+            "label": "Body font size",
+            "type": "slider",
+            "default": 24,
+            "min": 14,
+            "max": 56,
+            "step": 1,
+            "unit": "px"
+          },
+          {
+            "id": "headingFontFamily",
+            "label": "Font",
+            "type": "font",
+            "default": "Playfair Display"
+          },
+          {
+            "id": "headingFontWeight",
+            "label": "Weight",
+            "type": "slider",
+            "default": 500,
+            "min": 100,
+            "max": 900,
+            "step": 100
+          },
+          {
+            "id": "lineHeight",
+            "label": "Line height",
+            "type": "slider",
+            "default": 1.5,
+            "min": 1.1,
+            "max": 2.2,
+            "step": 0.05
+          }
+        ]
+      },
+      {
+        "label": "Backdrop",
+        "fields": [
+          {
+            "id": "transparentBackground",
+            "label": "Transparent background",
+            "type": "toggle",
+            "default": false
+          },
+          {
+            "id": "bgColor",
+            "label": "Background",
+            "type": "color",
+            "default": "#0d1018"
+          }
+        ]
+      }
+    ]
+  }
+}

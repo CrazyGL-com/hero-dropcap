@@ -1,0 +1,4 @@
+crazygl-hero[data-crazygl="dropcap"] crazygl-content { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 48px 64px; }
+crazygl-hero[data-crazygl="dropcap"] .crazygl-dcp-wrap { max-width: 720px; }
+crazygl-hero[data-crazygl="dropcap"] .crazygl-dcp-body { margin: 0; hyphens: auto; }
+crazygl-hero[data-crazygl="dropcap"] .crazygl-dcp-cap { float: left; margin-right: 14px; padding-right: 4px; padding-top: 6px; font-weight: 700; }
